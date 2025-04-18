@@ -1,0 +1,42 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: welcome to my cave
+theme: ["PaperMod"]
+
+params:
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Abdelrahman"
+    subtitle: "A software engineer with in interest in databases, compilers, and dev life."
+  
+    imageWidth: 120
+    imageHeight: 120
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/abdelrahmanIEl-Batal"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/abdelrahman-ibrahim-2629241a8/"
+    - name: twitter
+      url: "https://twitter.com/_shoyoboi"
+    - name: hashnode
+      url: "https://aibrahimblogs.hashnode.dev/"
+
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowToc: true
+  comments: false
+
+menu:
+  main:
+    - name: Home
+      url: /  
+      weight: 1
+    - name: Articles
+      url: /articles/
+      weight: 2
+    - name: RSS
+      url: /index.xml
+      weight: 3

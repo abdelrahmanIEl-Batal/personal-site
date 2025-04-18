@@ -1,0 +1,25 @@
+# Hugo build output
+/public/
+
+# Hugo Modules (if you're using Hugo Modules)
+/hugo_modules/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.idea/
+.vscode/
+
+# Hugo-specific files (lock files, config backups, etc.)
+.hugo_build.lock
+hugo.lock
+
+# Generated files from other tools or systems (like Netlify, etc.)
+/netlify.toml
