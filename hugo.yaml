@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://abdelrahmaniel-batal.github.io/personal-site/
 languageCode: en-us
 title: welcome to my cave
 theme: ["PaperMod"]
@@ -6,7 +6,7 @@ theme: ["PaperMod"]
 caches:
   images:
     dir: :cacheDir/images
-    
+
 params:
   profileMode:
     enabled: true
